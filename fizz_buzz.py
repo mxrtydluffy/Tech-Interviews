@@ -26,7 +26,7 @@ def fizzBuzz(n):
 
 fizzBuzz(15)
 
-#                          Psuedocode
+#                          Pseudocode
 # Begin by creating a function that takes in a number in this case n.
 # Then reiterate in the index so the the number increases from 1.
 # Within for loop have one if loop that checks if index is divisible by 5 and 3, if som print FizzBuzz

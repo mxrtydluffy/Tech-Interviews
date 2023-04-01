@@ -25,7 +25,7 @@ def two_sum(nums, target):
 
 print(two_sum([3, 2, 4], 6))
 
-# Psudocode
+#                                   Pseudocode
 # Create a function that takes in two parameters, which is the number and the maximum target value.
 # Set the inital count to one so python knows where to begin.
 # Add a for loop to loop in the index in range. Values in range from 0 to the length of the numbers present.
