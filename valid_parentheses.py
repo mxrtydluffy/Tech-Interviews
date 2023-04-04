@@ -23,7 +23,7 @@
 # Example 3
 
 # Input: s = "(]"
-# Output: true
+# Output: false
 
 
 # Create a function that takes that refers an object by adding self in the parameter and a key value lets say "s".
