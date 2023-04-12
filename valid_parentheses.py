@@ -17,7 +17,7 @@
 
 # Example 2
 
-# Input: s = "()"
+# Input: s = "()[]{}"
 # Output: true
 
 # Example 3
@@ -26,7 +26,7 @@
 # Output: false
 
 
-# Create a function that takes that refers an object by adding self in the parameter and a key value lets say "s".
+# Create a function that takes that refers an object by adding a key value lets say "s".
 def isValid(s):
     # To start off create a pair of opening and closing parrenthesis inside a dictionary because need to access
     # the characters later and assign it to a variable.
