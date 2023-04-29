@@ -34,3 +34,6 @@ fizzBuzz(15)
 # If not true again check if divisible by 5. If true print Buzz.
 # At the end it returns a string of the index.
 # Lastly, call function and put arguement to get desired output.
+
+#                          Big O Notation
+#                              O(n)

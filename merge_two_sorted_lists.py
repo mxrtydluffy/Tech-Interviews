@@ -43,3 +43,6 @@ class Solution:
         # that doesn't exist on this linked list that is created since its an empty node. The one after
         # that is the head.
         return dummy.next
+
+#                                                  Big O Notation
+#                                                  O(m + n)

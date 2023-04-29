@@ -81,4 +81,7 @@ print((romanToInt("LVIII")))
 # 6.) However if its in an increasing order the smaller value must be subtracted (roman[s[i]]) from the result. To do this,
     # result -= will subtract it from the result.
 # 7.) Otherwise the else case is to add the roman value of the particular character.
-# 8.) Outside of function use a print state to print the function and input any roman numeral. 
+# 8.) Outside of function use a print state to print the function and input any roman numeral.
+
+#                                           Big O Notation
+#                                           O(n)

@@ -35,4 +35,7 @@ class Solution:
         
         # If didn't return target return left pointer bc
             # if target is 1 and array of 2. Since 1 is less than 2 start searching to the left
-        return l 
+        return l
+    
+#                               Big O Notation
+#                                   O(log n)

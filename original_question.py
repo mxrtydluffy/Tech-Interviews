@@ -29,7 +29,7 @@ def problem(pattern: str, s: str) -> bool:
     # Initilize hashmaps to Map each word to the character. 
     wordToChar = {}
 
-    # Iterate through both of the characters in patten and each word in our list at the same exact time
+    # Iterate through both of the characters in pattern and each word in our list at the same exact time
     # To do this use each character in each word and zip through them to iterate simutaneously.
     # zip chracters in pattern and the words in the list.
     for c, w in zip(pattern, words):

@@ -49,3 +49,6 @@ def isValid(s):
 print(isValid("()"))
 print(isValid("()[]{}"))
 print(isValid("(]"))
+
+#                               Big O Notation
+#                                   O(n)

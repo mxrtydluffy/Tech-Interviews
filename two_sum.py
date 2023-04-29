@@ -34,3 +34,7 @@ print(two_sum([3, 2, 4], 6))
 
 
 # Solution [1, 2]
+
+
+#                                   Big O Notation
+#                                       O(n^2)
