@@ -53,5 +53,5 @@ def problem(pattern: str, s: str) -> bool:
     return True
 
 print(problem("yzyz","apples oranges apples oranges"))
-print(problem("abba","apples oranges apples oranges"))
+print(problem("abba","apples oranges oranges apples"))
 print(problem("popo","ramen boba ramen boba"))
