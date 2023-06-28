@@ -50,19 +50,26 @@ def twoSumII(numbers, target):
     # Assign pointers then get the length of the last index of array
     left, right = 0, len(numbers) - 1
 
+    # Need a loop to iterate through the array. Here I'm stating
+    # left is greater than right but it doesn't really matter since we're
+    # guaranteed a solution.
     while left < right:
 
-        # The sum variable (s) left the left and right pointer elements
+        # Now we compute the current sum
+        # The sum variable (s) left and right pointer elements
         s = numbers[left] + numbers[right]
 
         # if the sum is greater than target
         if s > target:
-            # Move in opposite direction
+            # Decrease the sum by taking the right pointer and 
+            # shifting it to the left 
             right -= 1
-        # Move towards the front
+        # If current sum is too small, we in increase our
+        # sum by taking the left pointer and shifting it towards the right.
         elif s < target:
             left += 1
         # If answer is found then return the current index
+        # of both left and right.
         else:
             return [left + 1, right + 1]
         
